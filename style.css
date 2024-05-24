@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(0, 0%, 90%) ;
+}
+#myh1{
+    font-size: 4rem;
+    font-family: Arial,  sans-serif;
+    color: hsl(307, 86%, 22%);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border:5px solid rgb(104, 8, 98);
+    border-radius: 50px ;
+    background-color: rgb(104, 8, 98);
+}
+#display{
+    font-size: 5rem;
+    font-family:monospace;
+    font-weight: bold;
+    color:hsl(0, 9%, 91%);
+    text-shadow: 2px 2px 5px hsla(0, 22%, 90%, 0.75);
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border:none ;
+    border-radius:10px;
+    cursor:pointer;
+    color:white
+    
+
+}
+#startB ,#resetB, #stopB,#lapB{
+    background-color:hsl(291, 38%, 52%) ;
+}
+#startB:hover ,#resetB:hover, #stopB:hover,#lapB:hover{
+    background-color: rgb(175, 20, 202);
+}
+#laps{
+    color: white;
+}
